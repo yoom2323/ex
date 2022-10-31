@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>webEx1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Pacifico&family=Rozha+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0 auto;
+            background: url(./과제-킴스키친/나무.jpg) fixed;
+            background-size: contain;
+            font-family: 'Noto Sans KR', 'Pacifico', 'Rozha One',sans-serif;
+        }
+        .wrapper {
+            margin: 10px auto;
+            width: 950px;
+            border: 3px solid pink;
+            background-color: #7d1e6a;
+        }
+        
+        .wrapper .content {
+            background-color: #f1eee9;
+        }
+        .gnb {
+            background-color: #ffcd38;
+            overflow: hidden;
+            margin: 0;
+            clear: both;
+        }
+        #menu {
+            list-style: none;
+            padding: 0;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 0;
+            width: 500px;
+        }
+        #menu li {
+            float: left;
+        }
+        #menu li a {
+            padding: 12px 20px;
+            text-decoration: none;
+            display: block;
+            background-color: #ffcd38;
+            color: #7d1e6a;
+        }
+        #menu li a:hover {
+            background-color: #7d1e6a;
+            color: #ffcd38;
+        }
+        .content .box1 {
+            clear: both;
+            margin: 0;
+        }
+        .salad {
+            margin: 0;
+            clear: both;
+        }
+        .logo img {
+            width: 90px; height: 90px;
+            float: left;
+            margin: 20px;
+            margin-right: 15px;
+        }
+        .logo p:first-of-type {
+            color: white;
+            font-size: 40px;
+            font-family: 'Pacifico', cursive;
+            margin: 0;
+            height: 40px;
+            padding-top: 25px;
+            line-height: 40px;
+        }
+        .logo p:last-of-type {
+            color: white;
+            font-size: 38px;
+            font-family: 'Rozha One', serif;
+            margin: 0;
+            height: 38px;
+            line-height: 38px;
+        }
+        .logo p {
+            height: 78px;
+            line-height: 78px;
+        }
+        footer {
+            color: white;
+            height: 35px
+            padding: 0;
+        }
+        .content {
+            overflow: hidden;
+        }
+        .content .box1 {
+            float: left;
+        }
+        #saladbox {
+            border: 1px solid red;
+            margin: 30px 20px;
+            width: 305px;
+            background-color: white;
+            float: left;
+        }
+        .salad img {
+            width: 290px; height: 190px;
+            margin: 7px;
+            margin-bottom: 0;
+        }
+        figcaption {
+            text-align: right;
+            font-style: italic;
+            padding: 0;
+            margin: 7px;
+            margin-top: 0;
+            color: rgb(116, 114, 114);
+        }
+        #soybox {
+            clear: both;
+            border: 1px solid red;
+            margin: 30px 20px;
+            width: 305px;
+            background-color: white;
+            float: left;
+        }
+        #soybox img {
+            width: 290px; height: 190px;
+            margin: 7px;
+            margin-bottom: 0;
+        }
+        .soy {
+            margin: 0;
+        }
+        .vegan, .sauce {
+            padding: 10px;
+        }
+        .sauce {
+            padding-top: 100px;
+        }
+        .box1 p:first-of-type {
+            font-weight: bold;
+            font-size: 22px;
+        }
+        .box1 p:nth-of-type(2) {
+            font-size: 18px;
+            font-weight: bold;
+            color: red;
+        }
+        .box2 {
+            background-color: white;
+            overflow: hidden;
+            padding: 0px;
+            border-left: 2px solid red;
+            height: 600px;
+        }
+        .box2 ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .box2 ul li {
+            border-bottom: 2px solid red;
+
+        }
+        .box2 ul li a {
+            display: block;
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+            padding: 18px;
+        }
+        .box2 ul li a:hover {
+            background-color: red;
+            color: white;
+        }
+        .box2 h3 {
+            color: red;
+            font-size: 28px;
+            padding-left: 18px;
+        }
+        .box2 p {
+            font-size: 22px;
+            padding-left: 18px;
+        }
+        footer {
+            padding-left: 20px;
+            height: 35px;
+            line-height: 35px;
+        }
+        </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <article class="logo">
+                <img src="./과제-킴스키친/레이카.png" alt="로고">
+                <p>Kim's Kitchen</p>
+                <p>Cooking Class</p>
+            </article>
+            <article class="gnb">
+                <ul id="menu">
+                    <li><a href="#">홈</a></li>
+                    <li><a href="#">소개</a></li>
+                    <li><a href="#">교실</a></li>
+                    <li><a href="#">케이터링</a></li>
+                    <li><a href="#">연락처</a></li>
+                </ul>
+            </article>
+        </header>
+        <article class="content">
+            <div class="box1">
+                <article>
+                    <div id="saladbox">
+                        <figure class="salad">
+                        <img src="./과제-킴스키친/오리엔탈샐러드.jpg" alt="샐러드">
+                        <figcaption>Oriental Salad</figcaption>
+                        </figure>
+                    </div>
+                    <div class="vegan">
+                    <p>채식주의자</p>
+                    <p>런던에서의 5주 코스</p>
+                    <p>5주간 채식주의자 음식에 대해 소개하고 쌀과 국수 요리를 가르친다.</p>
+                    </div>
+                </article>
+                <article>
+                    <div id="soybox">
+                        <figure class="soy">
+                        <img src="./과제-킴스키친/간장.jpg" alt="간장">
+                        <figcaption>Soy Sauce</figcaption>
+                        </figure>
+                    </div>
+                    <div class="sauce">
+                    <p>소스 마스터 클래스</p>
+                    <p>1일 워크샵</p>
+                    <p>1일 집중 코스에서는 다양한 요리에서 사용할 수 있는 가장 맛있는 소스를 만드는 방법을 살펴본다.</p>
+                    </div>
+                </article>
+            </div>
+            <div class="box2">
+                <h3>인기요리법</h3>
+                <ul>
+                    <li><a href="#">후라이드</a></li>
+                    <li><a href="#">고추바사삭</a></li>
+                    <li><a href="#">양념치킨</a></li>
+                    <li><a href="#">강정</a></li>
+                </ul>
+                <h3>연락처</h3>
+                <p>경기 수원시 팔달구 매산동</p>
+            </div>
+        </article>
+        <footer>
+            ⓒKim's Kitchen 김씨네 키친
+        </footer>
+    </div>
+    
+</body>
+</html>
