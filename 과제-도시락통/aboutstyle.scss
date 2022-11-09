@@ -1,0 +1,110 @@
+
+$godo : "Godo", "Pretendard", 돋움, sans-serif ;
+$pre : "Pretendard", "Godo", 돋움, sans-serif ;
+
+body {
+    margin: 0;
+    font-family: $pre;
+}
+ul li {
+    list-style: none;
+    padding: 0;
+}
+.bg_graph {
+
+}
+.bg_graph img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto;
+}
+
+
+.content {
+    max-width: 1920px;
+    background-color: #091020;
+    color: #ffff;
+    position: relative;
+        .about-graph {
+            position: absolute;
+            top: 24.5vh;
+            left: 13vw;
+            max-width: 31.7vw;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+                .about-graph_item {
+                    max-width: 12.7vw;
+                    padding-bottom: 6.6vh;
+                }
+        }
+        .about-graph_title {
+            margin: 0;
+            padding: 15px 0;
+            color: #7d8089;
+            font-size: 20px;
+            border-bottom: 1px solid #7d8089;
+        }
+        .about-graph_count {
+            font-size: 50px;
+            padding-top: 30px;
+            padding-right: 0;
+            text-align: right;
+            margin: 0;
+            font-weight: 700;
+        }
+        .about-graph_standard {
+            margin: 0; padding: 0;
+            font-size: 18px;
+            position: absolute;
+            top: 50vh;
+            left: 2vw;
+        }
+}
+
+.services {
+    max-width: 1420px;
+    margin: 205px auto;
+        
+        h4 {
+            margin: 0; padding: 0;
+            
+            font-family: 'Poppins', $pre;
+            font-size: 46px;
+        }
+        .network {
+            margin: 25px 0 55px 0;
+            font-size: 24px;
+            color: #4e4e4e;
+            font-weight: 600;
+        }
+        .listservice {
+
+            display: flex;
+            padding: 0;
+
+                li {
+                    padding: 0 10px;
+                    width: 25%;
+                        h5 {
+                            font-size: 22px;
+                            margin: 20px 0px 8px;
+                            padding: 0 20px;
+                            color: #000;
+                            letter-spacing: -1px;
+                        }
+                        p {
+                            font-size: 16px;
+                            padding: 0 20px;
+                            color: #757575;
+                        }
+                }
+                li img {
+                    border-radius: 25px;
+                    width: 100%;
+                }
+                a {
+                    text-decoration: none;
+                }
+        }
+}
